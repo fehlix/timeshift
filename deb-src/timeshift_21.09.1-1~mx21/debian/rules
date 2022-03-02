@@ -23,3 +23,21 @@ execute_after_dh_auto_install:
 # MX don't need no stinkin' dbgsyms
 override_dh_strip:
 	dh_strip --no-automatic-dbgsym
+
+
+# Adjust version number to reflect changes made by MX
+DEB_BUILD_VERSION := $(shell dpkg-parsechangelog -S Version)
+override_dh_auto_build:
+	sed -i~ 's/AppVersion = .*/AppVersion = "$(DEB_BUILD_VERSION)";/' src/Gtk/AppGtk.vala src/Console/AppConsole.vala
+	cp -af timeshift.pot timeshift.pot~
+	dh_auto_build
+
+# Clean build changes in source
+execute_after_dh_builddeb:
+	@echo Cleanup source in execute_after_dh_builddeb
+	for F in timeshift.pot po/*.po src/Gtk/AppGtk.vala src/Console/AppConsole.vala; do test -f "$$F~" && mv -f "$$F~" "$$F"; done
+
+override_dh_auto_clean:
+	dh_auto_clean
+	cp -af timeshift.pot timeshift.pot~
+

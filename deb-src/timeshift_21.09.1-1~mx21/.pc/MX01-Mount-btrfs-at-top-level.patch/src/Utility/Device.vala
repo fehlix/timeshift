@@ -1610,14 +1610,7 @@ public class Device : GLib.Object{
 			cmd = "mount -o %s \"%s\" \"%s\"".printf(mount_options, device, mount_point);
 		}
 		else{
-			cmd = "lsblk -n -o FSTYPE \"%s\"".printf(device);
-			int status = exec_sync(cmd, out std_out, out std_err);
-			if (status == 0 && std_out.strip() == "btrfs"){
-				cmd = "mount -o subvol=/ \"%s\" \"%s\"".printf(device, mount_point);
-			} 
-			else{
-				cmd = "mount \"%s\" \"%s\"".printf(device, mount_point);
-			}
+			cmd = "mount \"%s\" \"%s\"".printf(device, mount_point);
 		}
 
 		ret_val = exec_sync(cmd, out std_out, out std_err);

@@ -1,3 +1,9 @@
+timeshift (21.09.1-1~mx21+2) mx; urgency=medium
+
+  * Patched for MX Linux to mount btrfs at top-level.
+
+ -- fehlix <fehlix@mxlinux.org>  Sun, 27 Feb 2022 12:24:03 -0400
+
 timeshift (21.09.1-1~mx21+1) mx; urgency=medium
 
   * Rebuild for MX Linux.

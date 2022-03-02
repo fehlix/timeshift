@@ -2,3 +2,4 @@
 0005-build-with-debug-info.patch
 0006-Add_keywords_to_dot_desktop.patch
 0007-Add_VALAFLAGS_to_makefile.patch
+MX01-Mount-btrfs-at-top-level.patch
