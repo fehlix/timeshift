@@ -1,0 +1,9 @@
+Description: Add keywords to timeshift-gtk.desktop
+
+--- timeshift-20.03+ds.orig/src/timeshift-gtk.desktop
++++ timeshift-20.03+ds/src/timeshift-gtk.desktop
+@@ -25,3 +25,4 @@ Comment[ru]=Программа для в
+ X-KDE-StartupNotify=false
+ Categories=System;
+ X-GNOME-UsesNotifications=true
++Keywords=backup;btrfs;rsync;

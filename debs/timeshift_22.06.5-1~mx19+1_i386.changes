@@ -1,0 +1,57 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 10 Sep 2022 07:07:13 -0400
+Source: timeshift
+Binary: timeshift
+Architecture: source i386
+Version: 22.06.5-1~mx19+1
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ timeshift  - System restore utility
+Changes:
+ timeshift (22.06.5-1~mx19+1) mx; urgency=medium
+ .
+   * Build for MX-19/buster
+   * Set debhelper-compat (= 12)
+Checksums-Sha1:
+ a0e92d0d0347de5ed1ebcec436133501290c9e5c 2086 timeshift_22.06.5-1~mx19+1.dsc
+ 569aa12b291bb72111f54b22520eedbbde60be09 1494015 timeshift_22.06.5.orig.tar.gz
+ 0b8a99920e1a4e9a030d449a48fcd2d2bb4448c5 13032 timeshift_22.06.5-1~mx19+1.debian.tar.xz
+ eab90970e15142d3665f5f1be81abea6344bf29f 15946 timeshift_22.06.5-1~mx19+1_i386.buildinfo
+ a4f1784f999087db7ce9f44a8f6b314310c82e2c 705296 timeshift_22.06.5-1~mx19+1_i386.deb
+Checksums-Sha256:
+ 482a2fe43953aad1754d90f7150dfcf2dfd2d789c9cfaafa8396760319ebbf93 2086 timeshift_22.06.5-1~mx19+1.dsc
+ f1599a590264a2a5ef3dc146d002bc94aaf7ae17140f72f1eee0d97d27e9f380 1494015 timeshift_22.06.5.orig.tar.gz
+ f3c91e5467f6ebe604bcc2cf06a95ba4f66fb3296e396bf9cf9deae3a6ab57dd 13032 timeshift_22.06.5-1~mx19+1.debian.tar.xz
+ b749bf8ebb4430fe5fc17e57d1b963d0a65ae03f5308316fce89cfad6580ad74 15946 timeshift_22.06.5-1~mx19+1_i386.buildinfo
+ 42e35113eec3a98508111e93287ad902e38ad9407eeaaa75598f931ecff1664e 705296 timeshift_22.06.5-1~mx19+1_i386.deb
+Files:
+ b2bdbee0bd1ed05d143a4296928e038d 2086 utils optional timeshift_22.06.5-1~mx19+1.dsc
+ 3c5cc996481d9113fbc70accef3fe3f8 1494015 utils optional timeshift_22.06.5.orig.tar.gz
+ 9c46522a747ecb7ecc6d257fbd2d4840 13032 utils optional timeshift_22.06.5-1~mx19+1.debian.tar.xz
+ edce32a1d7e3d17a0b5072e9a5206da4 15946 utils optional timeshift_22.06.5-1~mx19+1_i386.buildinfo
+ 1109b85732ad2fe38f5f6d0b4027ee6e 705296 utils optional timeshift_22.06.5-1~mx19+1_i386.deb
+Original-Maintainer: Yanhao Mo <yanhaocs@gmail.com>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmMco8YTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6RO1EACgZ7ez2ZoIH/EncR6iklKSqeeJFWnb
+SjaHk+oU6o6RWd2vsmJcAAG51ZT6PCR/Jvp+hFgKfPDFQWgIju8RIbetPw2cNc7m
+OYE4OENgjZHdbwP9EPIUpYLvHqkWnOJmsjy607L2bQWEyDRmfryq1Ukvpqb01vZY
++Ecni2lSFTV3lHegLXm/Nnv4hT7TSno/FJf68dGLNTy/9kDGlCpU5xmRVb/+D5WR
+MBHake2BKnREbBZvbGZ76YWjabmVWseDa0NXDtKZOflD6RCPPwCSTq4PygbHMvp1
+rEsJOzvJR+b9Xr8Qv1M67TIVvbHseaAnUKpsgGCyD4e7yH4vqtM4aZYsyOBIqKm9
+v0mJQsGIswVZ5fnVEe06WrVfo+LlcsbIDlPsonLnbpvDrWHE6vwiZDfsvEzuxIP3
+TX6psj9AJiSRkTKzTeYfRWaUHomyXvmGdPml7eextX+jAIA27X5u6t+yh+7RD+k6
+HfxZAn6jGVOLBPNvKwUzf4DDMiVT4FHeICWSKI10veYAS5IaORerP2JLjbQIA7ig
+S1ajo0wDnavP15x0d9OEs1P2km82Berd1FfGuRKDbjg2Huo+jHIB7Lqblp6SZ4KH
+Xd7vuUE3UTxpW68wSgp0/ERnIBL7CPft8mwwvv7fvIPHhzibJCXx+dTCv4hC0t0d
+BQIOPgSex8h/hQ==
+=FrDC
+-----END PGP SIGNATURE-----

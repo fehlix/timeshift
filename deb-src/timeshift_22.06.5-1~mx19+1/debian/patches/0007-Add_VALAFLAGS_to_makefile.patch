@@ -1,0 +1,20 @@
+Description: Add VALAFLAGS to valac arguments in src/makefile.
+
+--- timeshift-20.03+ds.orig/src/makefile
++++ timeshift-20.03+ds/src/makefile
+@@ -51,6 +51,7 @@ app-gtk:
+ 	#timeshift-gtk
+ 	valac -g -X -D'GETTEXT_PACKAGE="${app_name}"' \
+ 		--Xcc="-lm" --Xcc="-O3" ${symbols} \
++		$(VALAFLAGS) \
+ 		Core/*.vala Gtk/*.vala Utility/*.vala Utility/Gtk/*.vala \
+ 		-o ${app_name}-gtk \
+ 		--pkg glib-2.0 --pkg gio-unix-2.0 --pkg posix \
+@@ -62,6 +63,7 @@ app-console:
+ 	#timeshift
+ 	valac -g -X -D'GETTEXT_PACKAGE="${app_name}"' \
+ 		--Xcc="-lm" --Xcc="-O3" ${symbols} \
++		$(VALAFLAGS) \
+ 		Core/*.vala Utility/*.vala Utility/Gtk/*.vala Console/*.vala \
+ 		-o ${app_name} \
+ 		--pkg glib-2.0 --pkg gio-unix-2.0 --pkg posix \
