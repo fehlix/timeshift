@@ -4,24 +4,25 @@ Hash: SHA512
 Format: 1.0
 Source: timeshift
 Binary: timeshift
-Architecture: amd64 source
+Architecture: i386 source
 Version: 22.11.2-1+mx23+1
 Checksums-Md5:
- 7c596aa64c657898c31536a100c16712 2086 timeshift_22.11.2-1+mx23+1.dsc
- 28a97b47d50f1d18ecd3e1651f29e872 687428 timeshift_22.11.2-1+mx23+1_amd64.deb
+ 186c8932503497baef110d4bed6332e5 2086 timeshift_22.11.2-1+mx23+1.dsc
+ 530ba3b113846c85396f007d6d958b46 722748 timeshift_22.11.2-1+mx23+1_i386.deb
 Checksums-Sha1:
- cc8a063a88bf8169959e6d24cea936129d85e73c 2086 timeshift_22.11.2-1+mx23+1.dsc
- d2c8a092bb6674d2aae497b2646b68a4b91be677 687428 timeshift_22.11.2-1+mx23+1_amd64.deb
+ 55442ed3aed4f6dddb4cab1332d35dabb76ccd8d 2086 timeshift_22.11.2-1+mx23+1.dsc
+ f8d89440e66b476d945b16453ff62e56e9e2a802 722748 timeshift_22.11.2-1+mx23+1_i386.deb
 Checksums-Sha256:
- 233d77941146dc46a0c04db891970582e09f37423d1ca9caaa4d7bf7d8f6fceb 2086 timeshift_22.11.2-1+mx23+1.dsc
- b739cac6c18421336c79e3bdac4b2188f8557821ba94b8956336f78c68be2a77 687428 timeshift_22.11.2-1+mx23+1_amd64.deb
+ 8d5b0a10c0c53773b9721f30752430b28eb4f7125ffec2d717e6cb473ad8410f 2086 timeshift_22.11.2-1+mx23+1.dsc
+ cd254b6391d90bc148dc5a3141338e6066e9f13102ac08cd1f40ac30fb170da6 722748 timeshift_22.11.2-1+mx23+1_i386.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Fri, 26 May 2023 22:23:44 +0200
+Build-Date: Fri, 26 May 2023 23:57:46 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
  usr-local-has-libraries
  usr-local-has-programs
+ can-execute-cross-built-programs
 Installed-Build-Depends:
  adduser (= 3.133),
  adwaita-icon-theme (= 43-1),
@@ -517,18 +518,18 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmRxLqwTHGZlaGxpeEBt
-eGxpbnV4Lm9yZwAKCRAvV48brJ2b6YOJD/9mtZszP7+TRrvL2Q8TIcAN63dA8V7Q
-eIy3e2x481Fn2xbjfAmmCguMS/KPs7mqB36JHUJCzYJ+JDTSLE1gIq1ioYeQzeBH
-GGTkiB3Q0RDrcXvjF7fIaDVfsd+ik2J7INDe2uopN5kV19BV0O5XG3cLJtC08Qg+
-vvBiAv4tprCBxMWtOPKXCztrfzB13rcoyt379JNt1RFoYmoThswnZi0IR8sUWr3D
-zeiIyHGstgJXau+p/OU4EiavptpZnGE2BxWxVgWxSWWIEmBPNiZp7gfjc7nzpRqc
-eHIUMd3oQzcTs1YPbjtQvza971YHr7DNOIK9h7s3BH1J6Vc9lO8mKfehzsph6Oqz
-ZR23MAejbZkQzaTPp6HVzB4qewLLUMYqMaFtE66ZnGgm86LqjQvicGK/ESxawjO0
-wj+MtDopFCnZ/tV2RPyHs9wpuMEXjl7yFKS/YYeE5a4pFqTDERmzCRPcoT8/bfdO
-Nx+mRDXkJTwXvB5EJ8YA5HzqIU9Id26AhB6cQEkn3/XXq+Da3oWwG/YJRCmUANva
-X+FgqQSy4NvOfssQc8Riv93KeOWFjK2Ph+ahWZMR8oZZdXiBsIOuqhsANXevYDlZ
-gt+zMpOc8o6zFqkJF0kfi0Dh2Na93R3NwCAl05Fb6A5ja7EP2JYii9LIS8wKAzOG
-BBUv61b4rZj8EQ==
-=YtAH
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmRxLoMTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6eojD/4y4bFplQAvxagFJabL4WLaqp56RNOj
+XeM4brXAWdp86vtCfqqjC5aG+hMvDZBF9hZ8y6FRuYZctaEY7EBlCLHJaISo0c6m
+E8InO19zO7bCoDDueXCd8i9Sg9ncKyEDmBh4Mf0i3nvFip1SRxCk/WUPM7IKAUJm
+fJdDNVoNAJ6m83+aY84c8z0wYMPlf7kCNfOrYAuYOrzI398taBEP2ATQnqbO5uKp
+PepUSTI0ct+tdk+EbwGDiXzMxqJESlAe8CvhBDNxA2XU/yWofTG/66H01Mg+KCOS
+3gHgstcgqnnR+JRN8XP0oGHPA8nwD4tBUkgHkDWr+I1d/CvJ9WRccI+c71p6JnYR
+n9c6kOsRf1neRW0hUAE/n4G9MirPwVDVtexAez/5jXxESmCMtloE90Ru1uXv7MHk
+3iOPXpwMFFQcihQTcvgqk7YKGyS0XE+vJlEjf9KJyMa0JEWVMoK0HvcfU9gi6rfP
+KhUSG3pubEpfMLbNDwQ5Rd3Cukak9kW6ZVTgpVtlzKl20eBG36L4wREGmZb4rE8S
+EfnXO7rp+DOeJmBIOBuY/PIBzK3kZsgyj5tzxypOhrOr0eBPELI4/ofoPRZEFWZB
+VbIKyPevtNcN+gucYsvvqRzOyTQz9npcbS2Ww5q8P1RR1Xuh6WBz1NLaO6WRE7u8
+QSRa8FojyNvotQ==
+=3aCR
 -----END PGP SIGNATURE-----
