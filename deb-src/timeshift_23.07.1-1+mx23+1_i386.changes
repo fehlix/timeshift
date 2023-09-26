@@ -1,0 +1,55 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 25 Sep 2023 18:12:45 -0400
+Source: timeshift
+Binary: timeshift
+Architecture: source i386
+Version: 23.07.1-1+mx23+1
+Distribution: mx
+Urgency: medium
+Maintainer: Yanhao Mo <yanhaocs@gmail.com>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ timeshift  - System restore utility
+Changes:
+ timeshift (23.07.1-1+mx23+1) mx; urgency=medium
+ .
+   * Fix: Allows default btrfs subvolume to be different from the top subvolume.
+   * Fix: Always mount the top btrfs subvolume.
+   * Fix: Adjustment of the default subvolume after restore.
+   * Fix: Use blkid if lsblk fails on luks devices with btrfs.
+Checksums-Sha1:
+ f1bcf1f301fd2980b154d7b74832abad0bf15401 2054 timeshift_23.07.1-1+mx23+1.dsc
+ 3455e6055b3177724446c44aa5f01edde4f719f0 14156 timeshift_23.07.1-1+mx23+1.debian.tar.xz
+ f34038c2c9081fda23032a9033971751460609a7 16119 timeshift_23.07.1-1+mx23+1_i386.buildinfo
+ 54bde9c9b6275d5acd6db93b3ae1753716e27f17 721780 timeshift_23.07.1-1+mx23+1_i386.deb
+Checksums-Sha256:
+ a808f59eca203d2f6529eeb82a5b1519de27b1c60d144f7a7767e4e9118aacf2 2054 timeshift_23.07.1-1+mx23+1.dsc
+ a2caad027e5cb8f377e62c0d82e3f0ab67e84637272f5be94f555f886e3f4370 14156 timeshift_23.07.1-1+mx23+1.debian.tar.xz
+ b3110caf83af5c9f7cc630054ef972672bed29cea7413f87bda8319e465e0d68 16119 timeshift_23.07.1-1+mx23+1_i386.buildinfo
+ cf93fadc79e754dbf624bdb7b3b48daf58759295c4cba519ac3e146e852ad8bf 721780 timeshift_23.07.1-1+mx23+1_i386.deb
+Files:
+ 0c22da58022642a0200920f2655a8aa1 2054 utils optional timeshift_23.07.1-1+mx23+1.dsc
+ 45b4c4568e63df33da19a484510b29b3 14156 utils optional timeshift_23.07.1-1+mx23+1.debian.tar.xz
+ ce6687bbbf187573a7e2fe8476d903b3 16119 utils optional timeshift_23.07.1-1+mx23+1_i386.buildinfo
+ 5cffa8f59205b73e7c616a9c0b0549b6 721780 utils optional timeshift_23.07.1-1+mx23+1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmUSND0THGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6fUiEAC18KTFBFhDoAVmwiZ0YODESscrWz2B
+z85F2uf2rFVKqw/L+aHSteBF858Alw4K2vwrgBCJRtJg0ZHFde+LtXWz0PBV7nFX
+qpyhsvaP8Xkt/jiOj4IOxyRfgNtdtE/dWdKqmrbDXI+Zu0Vh1k2WhmIpJa+Cvsv9
+kMu0uoc2W2GQBQeRcro/fLP7AuLWHraom2tsRRfvPhaQSKIUCf3CGuzZXZKxg/8x
+wdt9v2ydGKCxxCcoFBhixiwgZyy0rSC9jHyUeljelvEL4E1WghvjkHKdPhYXdXPQ
+mpnqBoPQVJRHfaZkqJk9BvWYC5Etf5GiKOcEYml7Zlc4TaTMtNoiUQ7Q61cXSDzz
+LLQL1WKA/fNXwHvWvPavrxcbCSkCJTpBKI5u8jO2rU7M9gFY+ED2f2cbTSp2RkYD
+83Wh9NT6coZFzbjiSYXBdyF/U9dM21VB7M1vzm6B/Yykam5foFk6vtt7wXcBEKG6
+jb3dUEdKaWCBowkCDYzwbee2akgPQaWlWVvs0cumoShDqeT4xjyXMP+tITIXuXCk
+vABaEO7HmliRJ5EkVJJttuIb8LkissqSUGUts3L+s4m3YO3BEPmKFyC0Zd9EPWUn
+0imPkETLsbPZ3Eu5KCG09QQ517NoL+d0yCiudC5f7aabJyfq0jMK2sVmU/eK+Rh/
+Px4skWJvExWGIA==
+=Rxw/
+-----END PGP SIGNATURE-----
