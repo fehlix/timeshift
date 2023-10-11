@@ -1,0 +1,65 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 11 Oct 2023 18:12:36 -0400
+Source: timeshift
+Binary: timeshift
+Architecture: source amd64
+Version: 23.07.1-1+mx23+2
+Distribution: mx
+Urgency: medium
+Maintainer: fehlix <fehlix@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ timeshift  - System restore utility
+Changes:
+ timeshift (23.07.1-1+mx23+2) mx; urgency=medium
+ .
+   [23.07.1-1+mx23+2]
+   * Fix toggle switch between rsync and btrfs mode
+   * Use check size of Gee.ArrayList
+   * Use blkid for all partitions if lsblk fails to get uuid or fstype
+   * Add /tmpdir/* to exclude list
+   * Add /home/snapshot/* to exclude list
+   * Add /swap/* to exclude list
+   * Add swap files listed in fstab to exclude list
+   [23.07.1-1+mx23+1]
+   * Fix: Allows default btrfs subvolume to be different from the top subvolume.
+   * Fix: Always mount the top btrfs subvolume.
+   * Fix: Adjustment of the default subvolume after restore.
+   * Fix: Use blkid if lsblk fails on luks devices with btrfs.
+Checksums-Sha1:
+ 5fe3642ae87baa685e0352b81954c28723e7c6b9 2112 timeshift_23.07.1-1+mx23+2.dsc
+ 345b84b42f90fdabc3d9718acb877d83d39292ca 14836 timeshift_23.07.1-1+mx23+2.debian.tar.xz
+ 9319000efd8fe4410018f5a77b1163bb1ddf87eb 16183 timeshift_23.07.1-1+mx23+2_amd64.buildinfo
+ 4b3801a5c9ca3fc34b408966f097b814c5792ed9 685856 timeshift_23.07.1-1+mx23+2_amd64.deb
+Checksums-Sha256:
+ 5ef83d4193e119fee200f5f4b21373e673596d6a2c332247669b7a103da6687f 2112 timeshift_23.07.1-1+mx23+2.dsc
+ aaff993666a47c137a8378c403667cd527b6bd2524622adae70504f116b07f40 14836 timeshift_23.07.1-1+mx23+2.debian.tar.xz
+ 3b2ea2dba79fc62facbccf40c70178e32601f9e9bdad0c1eba7d4ed3cec0093b 16183 timeshift_23.07.1-1+mx23+2_amd64.buildinfo
+ 4dc616ab17090dfb285ed89ebb9931d0a9c2b8a57ffcc75a259d20050a878309 685856 timeshift_23.07.1-1+mx23+2_amd64.deb
+Files:
+ dcd274a7a039d52258787231a174ca1f 2112 utils optional timeshift_23.07.1-1+mx23+2.dsc
+ c78ac519ac6663f04d7556b56cd1ad88 14836 utils optional timeshift_23.07.1-1+mx23+2.debian.tar.xz
+ c66ea38170b40895426fa6e2c4d6afeb 16183 utils optional timeshift_23.07.1-1+mx23+2_amd64.buildinfo
+ b60c8e2f9a958ba48903c6cff0ac1795 685856 utils optional timeshift_23.07.1-1+mx23+2_amd64.deb
+Original-Maintainer: Yanhao Mo <yanhaocs@gmail.com>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmUnBscTHGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6YzsEACiXH5X84+v65a/NOq1igj11esPoPod
+lAdLbVjxPxESw7n8IMJreOoFASpAOfyuKwMD1YX9EjPLJ0IlBNjcLji9wp2rMLuy
+Xwl69c3nbhIJ3fckVtdlF99kd62dWct3LGzmZsxD9J3KeDTV1zy4+zM+knTQDxHe
+/edhHg4NtVpj5oa5JLhIlWjKzFzcGuuvyk4v6SSOOOjkiJ8F6DveMMBil7W7s9BR
+QfnlxpUxM3xR2GDlwWDqXCQcCcWz12tSo5G+pta5O8Xb+f4JwpxGjen+Ddm8RblI
+qGi+Z7nrquEtcc8fLT3MD0KDIcImEv7pRJ11H5quMsDMbxpFfrZ3LkDE/aDkWVlu
+Y0oX6gc7SFc29zCgwax3VLkQDSXQunCwl3aNAikxMO+LyayuJKnnWXb01x+Q51gY
+3IgsG/Xq2NM5a9/FzekuLhdw5PQvxmgvfTP/X0QnjjC7R9W6DzcM930+e+vEmyGv
+X3EyQAGts84iis/8DduY5/mp2Nkx8tr2YIgrc6C57Enm54sYATdZwKdaBBKq92D2
+GMyDsmlx4M84rF7/FJUV7FW1n3afwUK3oE8lf1K+FDp/bQ8cpcHPiqR+aRDoiwB3
+DD37UYWLUp9TsMIpKJvuQl0sjZaWXcM9OFU8uBBh/Ufjfa/mR38UJo7hFY9St/kc
+vMPh8uKRjCuO0w==
+=3+EP
+-----END PGP SIGNATURE-----
